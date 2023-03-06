@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'digital';
+    src: url('./fonts/RADIOLAND.TTF');
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+    
+}
+.main-header h1{
+    font-size: 100px;
+    color: #058b75;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+background: url(".//IMG/bg-stop-watch.webp");
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+.border{
+
+
+width:25%;
+height: 25%;
+border-radius: 50%;
+border: none;
+margin: auto;
+margin-top: 30px;
+background: url(".//IMG/bg-img-5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+/* background-color: black; */
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+
+
+}
+.control{
+    width: 100%;
+    height: 45vh;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* #btn-container{
+   
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: 0px 6px;
+}
+.digit{
+    font-size: 35px;
+    color: rgb(223, 77, 23);
+}
+.txt{
+    font-size: 10px;
+    color: rgb(0, 255, 21);
+    font-weight: bold;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+.time-style{
+    -webkit-font-smoothing: antialiased;
+     
+     -webkit-text-stroke: #ffffff 1px;
+     -webkit-text-fill-color: transparent;
+}
+
+
+.myfont{
+    font-family: 'Tilt Neon';
+}
+
+#maindiv{
+
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 30vh;
+
+}
+
+
+
+
+#time-body{
+
+    height: 100px;
+    width: 300px;
+    background-color: rgba(0, 255, 157, 0.8);
+    color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.digital-font{
+    font-family: 'digital';
+    font-size: 40px;
+    color: #ff0000;
+    text-shadow: #ff0000 0px 0px 5px;
+}
+
+
+
+.stop-watch{
+    width: 13%;
+    display: inline-block !important;
+}
+
+.colon{
+    width: 4%;
+    display: inline-block !important;
+
+}
+
+
+
+
+
+#stopwatch-body button{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #ff0015;
+    /* color: #000000; */
+    border: #e9fa00 2px solid;
+    font-weight: bold;
+    /* font-size: 15px; */
+    font-family: 'Shantell Sans';
+    
+}
+
+#stopwatch-body button svg{
+margin: -4px;
+fill: #000000;
+}
+
+#stopwatch-body button:hover{
+
+    background-color: #058b75;
+
+}
+
+#stopwatch-body button:focus{
+
+    background-color: #00a552;
+    color: #ffffff;
+    
+
+}
+
+.start-button-active{
+
+    background-color: #ff0000 !important;
+    color: #ffffff !important;
+
+}
+.start-button-active:hover{
+
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    cursor: not-allowed !important;
+
+}
